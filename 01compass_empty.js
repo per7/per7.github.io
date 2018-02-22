@@ -22,7 +22,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "the sea";
+                text_area.textContent = "the rubber boots";
         }
         
         // text_area.textContent = compassHeading;
