@@ -14,15 +14,15 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "a man, drinking water";
+                text_area.textContent = "a man, <br/> drinking water";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "turning water into a tear";
+                text_area.textContent = "turning water <br/> into a tear";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "tasting salt water";
+                text_area.textContent = "tasting <br/> salt water";
         }
         
         // text_area.textContent = compassHeading;
