@@ -10,19 +10,19 @@ oriented = function(e) {
         
 
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "the sea";
+                text_area.textContent = "the frozen sea";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "a nightclub";
+                text_area.textContent = "a man, drinking water";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "the forest";
+                text_area.textContent = "turning water into a tear";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "the rubber boots";
+                text_area.textContent = "tasting salt water";
         }
         
         // text_area.textContent = compassHeading;
