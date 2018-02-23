@@ -60,7 +60,7 @@ oriented = function(e) {
                 text_area.textContent = "The time must be up soon. Maybe he will say something just as the time is up, is he aware of the time?";
         }
 
-        if(compassHeading >= 280 || compassHeading < 315) {
+        if(compassHeading >= 280 || compassHeading < 20) {
                 text_area.textContent = "I dont see him looking at a clock or phone. The time is up. He doesnt say anything.";
 
         }
