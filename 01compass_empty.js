@@ -21,7 +21,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 80 && compassHeading < 100) {
-                text_area.textContent = "Looks like he is writing what he is seeing. Like I am writing what I am seeing, only I’m not seeing much of what the rest of the group is doing. ";
+                text_area.textContent = "Looks like he is writing what he is seeing. Like I am writing what I am seeing, only I’m not seeing much of what the rest of the group is doing.";
         }
         
         if(compassHeading > 100 || compassHeading < 120) {
@@ -29,16 +29,15 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 120 && compassHeading < 140) {
-                text_area.textContent = "Probably because I understand it. I don’t really understand what he is doing. I move closer, first to the north side of the room. ";
+                text_area.textContent = "Probably because I understand it. I don’t really understand what he is doing. I move closer, first to the north side of the room.";
         }
 
         if(compassHeading >= 140 && compassHeading < 160) {
-                text_area.textContent = ". I stay there for a while, as if Im looking at what the rest of the group is doing, but really Im trying to get closer to him. ";
+                text_area.textContent = ". I stay there for a while, as if Im looking at what the rest of the group is doing, but really Im trying to get closer to him.";
         }
 
         if(compassHeading >= 160 && compassHeading < 180) {
-        
-                text_area.textContent = "From this angle I see him writing in his notebook, he probably is writing what they are doing. ";
+            text_area.textContent = "From this angle I see him writing in his notebook, he probably is writing what they are doing.";
         }
 
         if(compassHeading > 180 || compassHeading < 200) {
