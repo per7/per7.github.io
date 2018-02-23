@@ -24,7 +24,7 @@ oriented = function(e) {
                 text_area.textContent = "Looks like he is writing what he is seeing. Like I am writing what I am seeing, only I’m not seeing much of what the rest of the group is doing.";
         }
         
-        if(compassHeading > 100 || compassHeading < 120) {
+        if(compassHeading > 100 && compassHeading < 120) {
                 text_area.textContent = "Or rather, I do see what they are doing and I understand what it is they are doing, maybe Im not very interested in it.";
         }
 
@@ -40,7 +40,7 @@ oriented = function(e) {
             text_area.textContent = "From this angle I see him writing in his notebook, he probably is writing what they are doing.";
         }
 
-        if(compassHeading > 180 || compassHeading < 200) {
+        if(compassHeading > 180 && compassHeading < 200) {
                 text_area.textContent = ". If he is, will he use it? If he is going to use it in some way, he needs to be quick.";
         }
 
@@ -56,7 +56,7 @@ oriented = function(e) {
                 text_area.textContent = "I remember watching a group of people in the middle of the room. I remember writing what I was seing";
         }
         
-        if(compassHeading > 260 || compassHeading < 280) {
+        if(compassHeading > 260 && compassHeading < 280) {
                 text_area.textContent = "The time must be up soon. Maybe he will say something just as the time is up, is he aware of the time?";
         }
 
@@ -64,7 +64,7 @@ oriented = function(e) {
                 text_area.textContent = "I dont see him looking at a clock or phone. The time is up. He doesnt say anything.";
         }
 
-        if(compassHeading >= 300 && compassHeading < 315) {
+        if(compassHeading >= 300 || compassHeading < 315) {
                 text_area.textContent = "He doesnt show the text to anyone. I cant see anything of what he has written.";
         }
 
