@@ -18,10 +18,10 @@ oriented = function(e) {
 
 
 //create arrays of possible content	
-var content_rilke = ["Throw the emptiness", "out of your arms", "to add to the spaces, we breathe" ];
-var content_stein = ["Rose", "is a rose", "is a", "rose is a" ];
-var content_perec = ["to the north, nothing", "to the east, nothing", "to the south, nothing", "to the west, nothing" ];
-var content_house = ["A house of flesh", "in the palm of my hand", "using science", "inahbited by primitive creatures" ];
+var content_rilke = ["trees", "moss", "a rubber mask of a deer" ];
+var content_stein = ["a hidden quarry", "a nightclub", "the frozen sea", "rubber boots" ];
+var content_perec = ["nothing", "trees", "a rock formation", "something unorganic left there by man" ];
+var content_house = ["i", "the frozen storm", "a black pipe", "the door thorugh which you came" ];
 
 //set content variable to one array
 var content = content_perec;
